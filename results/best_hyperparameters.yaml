@@ -1,0 +1,31 @@
+# 15/15 iterations complete ✅ (2445.37s)
+# Results saved to /content/runs/obb/tune
+# Best fitness=0.49173 observed at iteration 7
+# Best fitness metrics are {'metrics/precision(B)': 0.73097, 'metrics/recall(B)': 0.59788, 'metrics/mAP50(B)': 0.63495, 'metrics/mAP50-95(B)': 0.49173, 'val/box_loss': 1.00137, 'val/cls_loss': 2.01707, 'val/dfl_loss': 1.99414, 'val/angle_loss': 0.05582, 'fitness': 0.49173}
+# Best fitness model is /content/runs/obb/tune/weights
+lr0: 0.01
+lrf: 0.01
+momentum: 0.94077
+weight_decay: 0.00034
+warmup_epochs: 3.01076
+warmup_momentum: 0.84639
+box: 7.47175
+cls: 0.4793
+cls_pw: 0.00229
+dfl: 1.53551
+hsv_h: 0.01181
+hsv_s: 0.83286
+hsv_v: 0.41888
+degrees: 0.01119
+translate: 0.13523
+scale: 0.50521
+shear: 0.0
+perspective: 0.0
+flipud: 0.00312
+fliplr: 0.47882
+bgr: 0.0
+mosaic: 0.9287
+mixup: 0.00038
+cutmix: 0.0
+copy_paste: 0.00179
+close_mosaic: 10
