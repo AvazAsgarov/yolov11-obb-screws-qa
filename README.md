@@ -241,7 +241,7 @@ surup classification/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/avaz-asgarov/yolo-obb-screws.git
+git clone https://github.com/AvazAsgarov/yolov11-obb-screws-qa.git
 cd yolo-obb-screws
 ```
 
