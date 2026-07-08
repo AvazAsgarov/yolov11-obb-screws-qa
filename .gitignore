@@ -1,0 +1,21 @@
+# Ignore raw and processed dataset images, labels, and local configs
+dataset/images/
+dataset/labels/
+dataset/sanity_checks/
+dataset/data.yaml
+dataset/tmp_raw/
+
+# Ignore compressed archive downloads
+*.zip
+*.tar.gz
+
+# Allow trained weights inside models/
+# (We want models/ to be tracked and pushed to GitHub)
+
+# Ignore python caches and IDE metadata
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/
+.idea/
+.vscode/
